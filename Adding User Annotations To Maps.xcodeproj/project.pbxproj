@@ -1,0 +1,591 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EC16099422BBDD2F005FF06A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC16099322BBDD2F005FF06A /* AppDelegate.swift */; };
+		EC16099622BBDD2F005FF06A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC16099522BBDD2F005FF06A /* ViewController.swift */; };
+		EC16099922BBDD2F005FF06A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC16099722BBDD2F005FF06A /* Main.storyboard */; };
+		EC16099B22BBDD32005FF06A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC16099A22BBDD32005FF06A /* Assets.xcassets */; };
+		EC16099E22BBDD32005FF06A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC16099C22BBDD32005FF06A /* LaunchScreen.storyboard */; };
+		EC1609A922BBDD32005FF06A /* Adding_User_Annotations_To_MapsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC1609A822BBDD32005FF06A /* Adding_User_Annotations_To_MapsTests.swift */; };
+		EC1609B422BBDD33005FF06A /* Adding_User_Annotations_To_MapsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC1609B322BBDD33005FF06A /* Adding_User_Annotations_To_MapsUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EC1609A522BBDD32005FF06A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC16098822BBDD2E005FF06A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC16098F22BBDD2F005FF06A;
+			remoteInfo = "Adding User Annotations To Maps";
+		};
+		EC1609B022BBDD32005FF06A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC16098822BBDD2E005FF06A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC16098F22BBDD2F005FF06A;
+			remoteInfo = "Adding User Annotations To Maps";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EC16099022BBDD2F005FF06A /* Adding User Annotations To Maps.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Adding User Annotations To Maps.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC16099322BBDD2F005FF06A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EC16099522BBDD2F005FF06A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EC16099822BBDD2F005FF06A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EC16099A22BBDD32005FF06A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EC16099D22BBDD32005FF06A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EC16099F22BBDD32005FF06A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC1609A422BBDD32005FF06A /* Adding User Annotations To MapsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Adding User Annotations To MapsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC1609A822BBDD32005FF06A /* Adding_User_Annotations_To_MapsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Adding_User_Annotations_To_MapsTests.swift; sourceTree = "<group>"; };
+		EC1609AA22BBDD32005FF06A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC1609AF22BBDD32005FF06A /* Adding User Annotations To MapsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Adding User Annotations To MapsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC1609B322BBDD33005FF06A /* Adding_User_Annotations_To_MapsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Adding_User_Annotations_To_MapsUITests.swift; sourceTree = "<group>"; };
+		EC1609B522BBDD33005FF06A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EC16098D22BBDD2F005FF06A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC1609A122BBDD32005FF06A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC1609AC22BBDD32005FF06A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EC16098722BBDD2E005FF06A = {
+			isa = PBXGroup;
+			children = (
+				EC16099222BBDD2F005FF06A /* Adding User Annotations To Maps */,
+				EC1609A722BBDD32005FF06A /* Adding User Annotations To MapsTests */,
+				EC1609B222BBDD32005FF06A /* Adding User Annotations To MapsUITests */,
+				EC16099122BBDD2F005FF06A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EC16099122BBDD2F005FF06A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EC16099022BBDD2F005FF06A /* Adding User Annotations To Maps.app */,
+				EC1609A422BBDD32005FF06A /* Adding User Annotations To MapsTests.xctest */,
+				EC1609AF22BBDD32005FF06A /* Adding User Annotations To MapsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EC16099222BBDD2F005FF06A /* Adding User Annotations To Maps */ = {
+			isa = PBXGroup;
+			children = (
+				EC16099322BBDD2F005FF06A /* AppDelegate.swift */,
+				EC16099522BBDD2F005FF06A /* ViewController.swift */,
+				EC16099722BBDD2F005FF06A /* Main.storyboard */,
+				EC16099A22BBDD32005FF06A /* Assets.xcassets */,
+				EC16099C22BBDD32005FF06A /* LaunchScreen.storyboard */,
+				EC16099F22BBDD32005FF06A /* Info.plist */,
+			);
+			path = "Adding User Annotations To Maps";
+			sourceTree = "<group>";
+		};
+		EC1609A722BBDD32005FF06A /* Adding User Annotations To MapsTests */ = {
+			isa = PBXGroup;
+			children = (
+				EC1609A822BBDD32005FF06A /* Adding_User_Annotations_To_MapsTests.swift */,
+				EC1609AA22BBDD32005FF06A /* Info.plist */,
+			);
+			path = "Adding User Annotations To MapsTests";
+			sourceTree = "<group>";
+		};
+		EC1609B222BBDD32005FF06A /* Adding User Annotations To MapsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EC1609B322BBDD33005FF06A /* Adding_User_Annotations_To_MapsUITests.swift */,
+				EC1609B522BBDD33005FF06A /* Info.plist */,
+			);
+			path = "Adding User Annotations To MapsUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EC16098F22BBDD2F005FF06A /* Adding User Annotations To Maps */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC1609B822BBDD33005FF06A /* Build configuration list for PBXNativeTarget "Adding User Annotations To Maps" */;
+			buildPhases = (
+				EC16098C22BBDD2F005FF06A /* Sources */,
+				EC16098D22BBDD2F005FF06A /* Frameworks */,
+				EC16098E22BBDD2F005FF06A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Adding User Annotations To Maps";
+			productName = "Adding User Annotations To Maps";
+			productReference = EC16099022BBDD2F005FF06A /* Adding User Annotations To Maps.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EC1609A322BBDD32005FF06A /* Adding User Annotations To MapsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC1609BB22BBDD33005FF06A /* Build configuration list for PBXNativeTarget "Adding User Annotations To MapsTests" */;
+			buildPhases = (
+				EC1609A022BBDD32005FF06A /* Sources */,
+				EC1609A122BBDD32005FF06A /* Frameworks */,
+				EC1609A222BBDD32005FF06A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC1609A622BBDD32005FF06A /* PBXTargetDependency */,
+			);
+			name = "Adding User Annotations To MapsTests";
+			productName = "Adding User Annotations To MapsTests";
+			productReference = EC1609A422BBDD32005FF06A /* Adding User Annotations To MapsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EC1609AE22BBDD32005FF06A /* Adding User Annotations To MapsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC1609BE22BBDD33005FF06A /* Build configuration list for PBXNativeTarget "Adding User Annotations To MapsUITests" */;
+			buildPhases = (
+				EC1609AB22BBDD32005FF06A /* Sources */,
+				EC1609AC22BBDD32005FF06A /* Frameworks */,
+				EC1609AD22BBDD32005FF06A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC1609B122BBDD32005FF06A /* PBXTargetDependency */,
+			);
+			name = "Adding User Annotations To MapsUITests";
+			productName = "Adding User Annotations To MapsUITests";
+			productReference = EC1609AF22BBDD32005FF06A /* Adding User Annotations To MapsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EC16098822BBDD2E005FF06A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = fyunka;
+				TargetAttributes = {
+					EC16098F22BBDD2F005FF06A = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					EC1609A322BBDD32005FF06A = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = EC16098F22BBDD2F005FF06A;
+					};
+					EC1609AE22BBDD32005FF06A = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = EC16098F22BBDD2F005FF06A;
+					};
+				};
+			};
+			buildConfigurationList = EC16098B22BBDD2E005FF06A /* Build configuration list for PBXProject "Adding User Annotations To Maps" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EC16098722BBDD2E005FF06A;
+			productRefGroup = EC16099122BBDD2F005FF06A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EC16098F22BBDD2F005FF06A /* Adding User Annotations To Maps */,
+				EC1609A322BBDD32005FF06A /* Adding User Annotations To MapsTests */,
+				EC1609AE22BBDD32005FF06A /* Adding User Annotations To MapsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EC16098E22BBDD2F005FF06A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC16099E22BBDD32005FF06A /* LaunchScreen.storyboard in Resources */,
+				EC16099B22BBDD32005FF06A /* Assets.xcassets in Resources */,
+				EC16099922BBDD2F005FF06A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC1609A222BBDD32005FF06A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC1609AD22BBDD32005FF06A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EC16098C22BBDD2F005FF06A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC16099622BBDD2F005FF06A /* ViewController.swift in Sources */,
+				EC16099422BBDD2F005FF06A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC1609A022BBDD32005FF06A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC1609A922BBDD32005FF06A /* Adding_User_Annotations_To_MapsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC1609AB22BBDD32005FF06A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC1609B422BBDD33005FF06A /* Adding_User_Annotations_To_MapsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EC1609A622BBDD32005FF06A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC16098F22BBDD2F005FF06A /* Adding User Annotations To Maps */;
+			targetProxy = EC1609A522BBDD32005FF06A /* PBXContainerItemProxy */;
+		};
+		EC1609B122BBDD32005FF06A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC16098F22BBDD2F005FF06A /* Adding User Annotations To Maps */;
+			targetProxy = EC1609B022BBDD32005FF06A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EC16099722BBDD2F005FF06A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC16099822BBDD2F005FF06A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EC16099C22BBDD32005FF06A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC16099D22BBDD32005FF06A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EC1609B622BBDD33005FF06A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EC1609B722BBDD33005FF06A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EC1609B922BBDD33005FF06A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UDZBV6TRX6;
+				INFOPLIST_FILE = "Adding User Annotations To Maps/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fyunka.Adding-User-Annotations-To-Maps";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EC1609BA22BBDD33005FF06A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UDZBV6TRX6;
+				INFOPLIST_FILE = "Adding User Annotations To Maps/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fyunka.Adding-User-Annotations-To-Maps";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EC1609BC22BBDD33005FF06A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UDZBV6TRX6;
+				INFOPLIST_FILE = "Adding User Annotations To MapsTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fyunka.Adding-User-Annotations-To-MapsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Adding User Annotations To Maps.app/Adding User Annotations To Maps";
+			};
+			name = Debug;
+		};
+		EC1609BD22BBDD33005FF06A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UDZBV6TRX6;
+				INFOPLIST_FILE = "Adding User Annotations To MapsTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fyunka.Adding-User-Annotations-To-MapsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Adding User Annotations To Maps.app/Adding User Annotations To Maps";
+			};
+			name = Release;
+		};
+		EC1609BF22BBDD33005FF06A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UDZBV6TRX6;
+				INFOPLIST_FILE = "Adding User Annotations To MapsUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fyunka.Adding-User-Annotations-To-MapsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Adding User Annotations To Maps";
+			};
+			name = Debug;
+		};
+		EC1609C022BBDD33005FF06A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UDZBV6TRX6;
+				INFOPLIST_FILE = "Adding User Annotations To MapsUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fyunka.Adding-User-Annotations-To-MapsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Adding User Annotations To Maps";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EC16098B22BBDD2E005FF06A /* Build configuration list for PBXProject "Adding User Annotations To Maps" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC1609B622BBDD33005FF06A /* Debug */,
+				EC1609B722BBDD33005FF06A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC1609B822BBDD33005FF06A /* Build configuration list for PBXNativeTarget "Adding User Annotations To Maps" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC1609B922BBDD33005FF06A /* Debug */,
+				EC1609BA22BBDD33005FF06A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC1609BB22BBDD33005FF06A /* Build configuration list for PBXNativeTarget "Adding User Annotations To MapsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC1609BC22BBDD33005FF06A /* Debug */,
+				EC1609BD22BBDD33005FF06A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC1609BE22BBDD33005FF06A /* Build configuration list for PBXNativeTarget "Adding User Annotations To MapsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC1609BF22BBDD33005FF06A /* Debug */,
+				EC1609C022BBDD33005FF06A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EC16098822BBDD2E005FF06A /* Project object */;
+}
